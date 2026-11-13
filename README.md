@@ -1,52 +1,50 @@
-# BASICO-BB-BBC
+# BASado en Idioma Castellano y OperativoBASICO-BB-BBC
+
 BASado en Idioma Castellano y Operativo
 **BASado en Idioma Castellano y Operativo, derivado de BBC BASIC para BBC Micro**
 
-BASICO-BB è un adattamento del celebre linguaggio **BBC BASIC**, caratterizzato dalla localizzazione dei comandi in lingua spagnola. Allo stato attuale, le parole chiave e le istruzioni del BASIC sono state interamente tradotte, mentre i messaggi di errore rimangono in fase di completamento.
+BASICO-BB es una adaptación del célebre lenguaje **BBC BASIC**, caracterizada por la localización de los comandos al idioma español. En su estado actual, las palabras clave y las instrucciones de BASIC han sido traducidas en su totalidad, mientras que los mensajes de error aún se encuentran en fase de finalización.
 
----
+## Compatibilidad e intercambiabilidad de los códigos fuente
 
-## Compatibilità e interscambiabilità dei sorgenti
+Gracias a la estructura interna heredada de BBC BASIC, las instrucciones del lenguaje no se guardan como texto sin formato, sino en forma de **tokens numéricos**. Esto garantiza una total compatibilidad bidireccional entre los programas:
 
-Grazie alla struttura interna ereditata dal BBC BASIC, le istruzioni del linguaggio non vengono salvate come testo in chiaro, ma sotto forma di **token numerici**. Questo garantisce la piena compatibilità bidirezionale tra i programmi:
+* **De BBC BASIC a BASICO**: Un programa guardado en BBC BASIC puede cargarse en BASICO. Las palabras clave se mostrarán e interpretarán automáticamente con sus comandos correspondientes en español.
 
-- **Da BBC BASIC a BASICO**: Un programma salvato in BBC BASIC può essere caricato in BASICO. Le parole chiave verranno automaticamente mostrate e interpretate con i corrispettivi comandi in italiano.
-- **Da BASICO a BBC BASIC**: Un programma salvato in BASICO, una volta riaperto nell'ambiente BBC BASIC originale, mostrerà ed eseguirà i comandi nella loro forma inglese standard.
+* **De BASICO a BBC BASIC**: Un programa guardado en BASICO, una vez abierto de nuevo en el entorno original de BBC BASIC, mostrará y ejecutará los comandos en su forma estándar en inglés.
 
-### Note e avvertenze sulle variabili
-Sebbene la struttura del codice rimanga perfettamente compatibile, occorre prestare attenzione ai **nomi delle variabili**:
-1. Poiché BASICO utilizza parole chiave in italiano, un nome di variabile valido in BBC BASIC inglese potrebbe coincidere con una nuova istruzione riservata in BASICO (e viceversa), generando conflitti di sintassi.
-2. È sempre consigliabile scegliere nomi di variabili neutri o verificare che non coincidano con le parole chiave tokenizzate della versione di destinazione.
+### Notas y advertencias sobre las variables
 
----
+Aunque la estructura del código sigue siendo perfectamente compatible, se debe prestar atención a los **nombres de las variables**:
 
-## Requisiti e utilizzo
+1. Dado que BASICO utiliza palabras clave en español, un nombre de variable válido en el BBC BASIC en inglés podría coincidir con una nueva instrucción reservada en BASICO (y viceversa), generando conflictos de sintaxis.
 
-Per eseguire **BASICO-BB** su un emulatore di BBC Micro (es. BeebEM):
+2. Siempre es recomendable elegir nombres de variables neutros o comprobar que no coincidan con las palabras clave tokenizadas de la versión de destino.
 
-1. Scaricare il file basilico.rom
-2. Impostare come ROM del BASIC il summenzionato file nell'emulatore di BBC Micro
-3. Resettare l'emulatore
+## Requisitos y uso
 
----
+Para ejecutar **BASICO-BB** en un emulador de BBC Micro (ej. BeebEM):
 
-## Assemblatore integrato
+1. Descargar el archivo `basico.rom`
 
-L'assemblatore integrato funziona, ma ci sono anomalie. Ad esempio, l'istruzione ORA del 6502 nell'assemblatore del BASILICO è diventata OA, usando il token OR del BBC BASIC. Si è preferito privilegiare la corretta traduzione in italiano - O - del comando OR piuttosto che lasciare intatta l'istruzione ORA dell'Assembly.
+2. Configurar el mencionado archivo como ROM de BASIC en el emulador de BBC Micro
 
----
+3. Reiniciar el emulador
 
-## Proprietà intellettuale e note sui diritti
+## Ensamblador integrado
 
-Questo progetto è una modifica di un'opera preesistente e non rivendica la titolarità del codice sorgente o del binario originale. La proprietà intellettuale è così suddivisa:
+El ensamblador integrado funciona, pero presenta algunas anomalías. Por ejemplo, la instrucción `ORA` del procesador 6502 en el ensamblador de BASICO se ha convertido en `OA`, utilizando el token `OR` de BBC BASIC. Se ha preferido priorizar la correcta traducción al español (`O`) del comando `OR` en lugar de dejar intacta la instrucción `ORA` de ensamblador.
 
-- **BBC BASIC (Core & Implementazione 6502)**: Tutti i diritti relativi al codice originale appartengono a **Acorn Computers Ltd.** (e ai suoi aventi causa).
-- **Localizzazione in Italiano**: La traduzione dei token, l'adattamento della sintassi italiana e la conseguente riallocazione dei byte sono a cura dell'autore di questo repository.
+## Propiedad intelectual y notas sobre derechos
 
-Il codice sorgente originale e i file derivati rimangono soggetti alle rispettive note di copyright dei detentori dei diritti (**Acorn Computers** e suoi aventi causa).
+Este proyecto es una modificación de una obra preexistente y no reclama la titularidad del código fuente ni del binario original. La propiedad intelectual se divide de la siguiente manera:
 
----
+* **BBC BASIC (Núcleo e implementación 6502)**: Todos los derechos relativos al código original pertenecen a **Acorn Computers Ltd.** (y a sus causahabientes).
 
-## Crediti
+* **Localización al español**: La traducción de los tokens, la adaptación de la sintaxis al español y la consiguiente reasignación de bytes corren a cargo del autor de este repositorio.
 
-Un ringraziamento speciale a **Sophie Wilson** unitamente a **Acorn Computers** per la creazione del linguaggio originale.
+El código fuente original y los archivos derivados siguen sujetos a los respectivos avisos de derechos de autor de los titulares de los derechos (**Acorn Computers** y sus causahabientes).
+
+## Créditos
+
+Un agradecimiento especial a **Sophie Wilson** junto con **Acorn Computers** por la creación del lenguaje original.
