@@ -28,11 +28,11 @@ Para ejecutar **BASICO-BB** en un emulador de BBC Micro (ej. BeebEM):
 
 2. Configurar el mencionado archivo como ROM de BASIC en el emulador de BBC Micro
 
-3. Reiniciar el emulador
+3. Reiniciar el emulador ("Reset")
 
 ## Ensamblador integrado
 
-El ensamblador integrado funciona, pero presenta algunas anomalías. Por ejemplo, la instrucción `ORA` del procesador 6502 en el ensamblador de BASICO se ha convertido en `OA`, utilizando el token `OR` de BBC BASIC. Se ha preferido priorizar la correcta traducción al español (`O`) del comando `OR` en lugar de dejar intacta la instrucción `ORA` de ensamblador.
+El ensamblador integrado funciona, pero presenta algunas anomalías. Por ejemplo, la instrucción `ORA` del procesador 6502 en el ensamblador de BASICO se ha convertido en `L-OA`, utilizando el token `OR` de BBC BASIC. Se ha preferido priorizar la traducción al español (`L-O`) del comando `OR` en lugar de dejar intacta la instrucción `ORA` de ensamblador.
 
 ## Propiedad intelectual y notas sobre derechos
 
