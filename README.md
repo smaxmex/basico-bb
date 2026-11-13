@@ -1,4 +1,4 @@
-# BASado en Idioma Castellano y OperativoBASICO-BB-BBC
+#BASICO-BB-BBC
 
 BASado en Idioma Castellano y Operativo
 **BASado en Idioma Castellano y Operativo, derivado de BBC BASIC para BBC Micro**
