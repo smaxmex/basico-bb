@@ -1,6 +1,5 @@
 #BASICO-BB-BBC
 
-BASado en Idioma Castellano y Operativo
 **BASado en Idioma Castellano y Operativo, derivado de BBC BASIC para BBC Micro**
 
 BASICO-BB es una adaptación del célebre lenguaje **BBC BASIC**, caracterizada por la localización de los comandos al idioma español. En su estado actual, las palabras clave y las instrucciones de BASIC han sido traducidas en su totalidad, mientras que los mensajes de error aún se encuentran en fase de finalización.
