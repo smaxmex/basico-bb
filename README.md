@@ -12,7 +12,7 @@ Gracias a la estructura interna heredada de BBC BASIC, las instrucciones del len
 
 * **De BASICO a BBC BASIC**: Un programa guardado en BASICO, una vez abierto de nuevo en el entorno original de BBC BASIC, mostrará y ejecutará los comandos en su forma estándar en inglés.
 
-### Notas y advertencias sobre las variables
+## Notas y advertencias sobre las variables
 
 Aunque la estructura del código sigue siendo perfectamente compatible, se debe prestar atención a los **nombres de las variables**:
 
