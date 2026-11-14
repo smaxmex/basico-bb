@@ -90,7 +90,7 @@ BASICO BB		   BBC BASIC
 -SEN               SIN
 -SGN               SGN
 -SI                IF
--SI-NO             ELSE
+-SINO              ELSE
 -STOP              STOP	
 -TAB               TAB
 -TAN               TAN
