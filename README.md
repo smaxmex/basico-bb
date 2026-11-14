@@ -22,7 +22,7 @@ Aunque la estructura del código sigue siendo perfectamente compatible, se debe 
 
 ## Requisitos y uso
 
-Para ejecutar **BASILICO-BB-C64** en un emulador de Commodore 64 (ej. VICE, incluso en versión navegador/en línea) o en un Commodore 64 / 128 real:
+Para ejecutar **BASILICO-BB-C64** en un emulador de Commodore 64 (ej. VICE) o en un Commodore 64 / 128 real:
 
 1. Descargar el archivo PRG del sistema.
 2. Cargarlo y ejecutarlo mediante el comando:
