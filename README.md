@@ -63,7 +63,7 @@ CLI          ; Vuelve a habilitar las interrupciones
 Este proyecto es una modificación de una obra preexistente y no reclama la titularidad del código fuente ni del binario original. La propiedad intelectual se divide de la siguiente manera:
 
 * **BBC BASIC (Núcleo e implementación 6502)**: Todos los derechos relativos al código original pertenecen a **Acorn Computers Ltd.** (y a sus causahabientes).
-
+* **Interfaz para Commodore 64**: La portabilidad y la adaptación entre la arquitectura BBC BASIC y el KERNAL de Commodore 64 han sido desarrolladas por **J.G. Harston** ([mdfs.net](http://mdfs.net/Software/BBCBasic/C64/)).
 * **Localización al español**: La traducción de los tokens, la adaptación de la sintaxis al español y la consiguiente reasignación de bytes corren a cargo del autor de este repositorio.
 
 El código fuente original y los archivos derivados siguen sujetos a los respectivos avisos de derechos de autor de los titulares de los derechos (**Acorn Computers** y sus causahabientes).
