@@ -70,4 +70,4 @@ El código fuente original y los archivos derivados siguen sujetos a los respect
 
 ## Créditos
 
-Un agradecimiento especial a **Sophie Wilson** junto con **Acorn Computers** por la creación del lenguaje original.
+Un agradecimiento especial a **J.G. Harston** por el valioso trabajo de portabilidad de BBC BASIC a Commodore 64 y a **Sophie Wilson** junto con **Acorn Computers** por la creación del lenguaje original.Un agradecimiento especial a **J.G. Harston** por el valioso trabajo de portabilidad de BBC BASIC a Commodore 64 y a **Sophie Wilson** junto con **Acorn Computers** por la creación del lenguaje original.
