@@ -84,6 +84,7 @@ BASICO BB		   BBC BASIC
 -RAD               RAD
 -RASTREO           TRACE
 -RC                SQR
+-REGRESA           RETURN
 -RENUMERA          RENUMBER
 -REPITE            REPEAT
 -GUARDA            SAVE
@@ -105,7 +106,6 @@ BASICO BB		   BBC BASIC
 -VAL               VAL
 -VARIA	           NEXT
 -VMC               WIDTH
--REGRESA           RETURN
 
 -ABRE-A            OPENUP
 -ABRE-S            OPENOUT
