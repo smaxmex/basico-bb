@@ -104,7 +104,7 @@ UV                VDU
 USR               USR
 VE-A              GOTO
 VAL               VAL
-VARIA	            NEXT
+VARIA             NEXT
 VMC               WIDTH
 
 ABRE-A             OPENUP
