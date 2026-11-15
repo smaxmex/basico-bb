@@ -1,4 +1,4 @@
-BASICO BB	    	  BBC BASIC
+BASICO BB         BBC BASIC
 
 A                 TO
 ABS               ABS
@@ -19,7 +19,7 @@ COD               ASC
 COLOR             COLOUR		
 COS               COS
 CUENTA            COUNT
-DESDE	            RESTORE
+DESDE             RESTORE
 DATOS             DATA
 DIM               DIM
 DEF               DEF
@@ -118,9 +118,9 @@ DIBUJA             DRAW
 EXT#               EXT#
 FDA#               EOF#
 GRAF               PLOT
-LC	      			   OSCLI
+LC                 OSCLI
 MUEVE              MOVE
 PONB#     	       BPUT#
 PTR#               PTR#
-SONIDO    			   SOUND
+SONIDO             SOUND
 TOMAB#	           BGET#
