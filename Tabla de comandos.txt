@@ -1,4 +1,4 @@
-BASICO BB	    	   BBC BASIC
+BASICO BB         BBC BASIC
 
 A                 TO
 ABS               ABS
@@ -19,14 +19,14 @@ COD               ASC
 COLOR             COLOUR		
 COS               COS
 CUENTA            COUNT
-DESDE	            RESTORE
+DESDE             RESTORE
 DATOS             DATA
 DIM               DIM
 DEF               DEF
 DER$              RIGHT$
-DCO	              REPORT	
+DCO               REPORT	
 DIV               DIV
-DM	              PAGE
+DM                PAGE
 EJECUTA           RUN
 ENC               ON
 EN-CADENA         INSTR
@@ -104,7 +104,7 @@ UV                VDU
 USR               USR
 VE-A              GOTO
 VAL               VAL
-VARIA	           NEXT
+VARIA             NEXT
 VMC               WIDTH
 
 ABRE-A             OPENUP
@@ -118,9 +118,9 @@ DIBUJA             DRAW
 EXT#               EXT#
 FDA#               EOF#
 GRAF               PLOT
-LC	      			   OSCLI
+LC                 OSCLI
 MUEVE              MOVE
-PONB#     	       BPUT#
+PONB#              BPUT#
 PTR#               PTR#
-SONIDO    			   SOUND
+SONIDO             SOUND
 TOMAB#	           BGET#
